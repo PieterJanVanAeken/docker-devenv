@@ -1,4 +1,4 @@
-FROM vanaepi/devenv-jdk8
+FROM vanaepi/docker-devenv:jdk8
 
 RUN apt-add-repository ppa:ansible/ansible && \
     apt-get update
